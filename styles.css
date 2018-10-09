@@ -1,0 +1,50 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+img, article, hgroup {
+	margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+	border: 0;
+	font: helvetica, verdana;
+	vertical-align: baseline;
+}
+body {
+    background-color: lightgrey;
+}
+header {
+    background-color: lightcoral;
+    border-style: solid;
+    border-color:white;
+    border-width: 5px;
+    border-radius: 5px;
+    border-top-style: none;
+}
+.header-text{
+    color: white;
+}
+footer {
+    background-color: lightcoral;
+    border-style: solid;
+    border-color:white;
+    border-width: 5px;
+    border-radius: 5px;
+    border-bottom-style: none;
+}
+#footer-text{
+    text-align: center;
+    padding: 5px;
+}
+h1,h2,h3 {
+    text-align: center;
+    margin-bottom: 2px;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+h2{
+    text-emphasis: underline;
+}
+p{
+    padding-bottom: 5px;
+}
+
