@@ -22,6 +22,10 @@ header {
     font-family: Helvetica, sans-serif;
     color: white;
 }
+#subheader-text{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+}
 footer {
     background-color: lightcoral;
     border-style: solid;
@@ -59,9 +63,12 @@ p{
     clear: both;
     display: table;
 }
+#links {
+    font-family: Impact, fantasy;
+}
 a:link {
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
 
 /* visited link */
