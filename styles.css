@@ -1,12 +1,11 @@
-
 html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 img, article, hgroup {
-	margin: 0;
+    margin: 0;
     padding-left: 5px;
     padding-right: 5px;
-	border: 0;
-	font: helvetica, verdana;
-	vertical-align: baseline;
+    border: 0;
+    font-family: helvetica, verdana;
+    vertical-align: baseline;
 }
 body {
     background-color: lightgrey;
@@ -20,6 +19,7 @@ header {
     border-top-style: none;
 }
 .header-text{
+    font-family: Helvetica, sans-serif;
     color: white;
 }
 footer {
@@ -47,4 +47,31 @@ h2{
 p{
     padding-bottom: 5px;
 }
+.column {
+    float: left;
+    width: 24.75%;
+    padding: 0px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+a:link {
+    color: white;
+    text-decoration: none
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+    text-decoration: none
+}
